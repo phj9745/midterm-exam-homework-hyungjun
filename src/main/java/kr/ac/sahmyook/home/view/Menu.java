@@ -218,7 +218,6 @@ public class Menu {
             System.out.println("5. 줄수와 칸수 입력받아, 입력된 줄수/칸수만큼 별표문자 출력하기");
             System.out.println("6. 7줄에 7칸에 별표문자 출력하되, 각 줄에 줄번호와 같은 칸에 숫자 출력하기");
             System.out.println("7. 줄수를 입력받아, 삼각형 모양으로 별표문자 출력하기(양수:직각삼각형, 음수:역삼각형)");
-            System.out.println("7. 한 개의 정수를 입력받아, 양수인지 0인지 음수인지 확인하기");
             System.out.println("8. 구구단 2단부터 9단까지 출력하기");
             System.out.println("9. 이전 메뉴로 가기");
             System.out.print("메뉴 선택 : ");

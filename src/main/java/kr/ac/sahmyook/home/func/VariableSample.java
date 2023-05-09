@@ -3,8 +3,9 @@ package kr.ac.sahmyook.home.func;
 import java.util.Scanner;
 
 public class VariableSample {
+    Scanner sc = new Scanner(System.in);
+
     public void myProfile() {
-        System.out.println("myProfile 메소드 실행");
         String name = "박형준";
         final int AGE = 25;
         double height = 174.7;
@@ -15,8 +16,6 @@ public class VariableSample {
     }
 
     public void empInformation() {
-        System.out.println("empInformation 메소드 실행");
-        Scanner sc = new Scanner(System.in);
         System.out.print("사원의 이름을 입력해주세요 : ");
         String name = sc.next();
         System.out.print("부서를 입력해주세요 : ");
